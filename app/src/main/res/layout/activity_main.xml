@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!--For Assignment 7.1 for Google Search-->
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter search text">
+        <requestFocus />
+    </EditText>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Assignment71"
+        android:layout_gravity="center"
+        android:onClick="onSearchClick"
+        android:layout_marginTop="10dp" />
+
+    <!--For Assignment 7.2 for Open Contact List-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Assignment72"
+        android:layout_gravity="center"
+        android:onClick="callContacts"
+        android:layout_marginTop="10dp" />
+
+    <!--For Assignment 7.3 for Image Selection View-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onLoadImageClick"
+        android:text="@string/Assignment73" />
+
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/login_text"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorLink="@android:color/transparent"
+        android:textStyle="bold">
+
+    </TextView>
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_text">
+    </EditText>
+    <EditText
+        android:id="@+id/login_passoword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_text">
+    </EditText>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onLoginClick"
+        android:text="@string/Assignment74" />
+
+
+</LinearLayout>

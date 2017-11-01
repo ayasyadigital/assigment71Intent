@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Assignment 7</string>
+    <string name="Assignment71">Search Me :- Assignment 7.1 </string>
+    <string name="Assignment72">Open Contact :- Assignment 7.2 </string>
+    <string name="Assignment73">"Get/Pick image from gallery:- Assignment 7.3"</string>
+    <string name="login_text">Login Page</string>
+    <string name="username_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="attempt_text">Attempt</string>
+    <string name="Assignment74">Login :- Assignment7.4</string>
+    <string name="screen_page_text">Welcome  to the second page</string>
+    <string name="title_activity_user">USER</string>
+</resources>
